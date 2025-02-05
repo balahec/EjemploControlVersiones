@@ -35,3 +35,10 @@ L<- 3
 M<- 2
 Area<- L*M
 ```
+# Area trapecio
+```{r}
+area_trapecio <- function(b, B, H) {
+  return(((b + B) * H) / 2)
+}
+
+```
