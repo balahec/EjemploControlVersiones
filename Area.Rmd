@@ -16,3 +16,9 @@ r<- 0.5
 Area<- pi*r^2
 ```
 
+# Area cuadrado
+
+```{r}
+L<- 3
+Area<- L^2
+```
