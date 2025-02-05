@@ -22,3 +22,23 @@ Area<- pi*r^2
 L<- 3
 Area<- L^2
 ```
+
+# Area Triangulo
+```{r}
+L<- 3
+Area<- (L^2)/2
+```
+
+# Area rectangulo
+```{r}
+L<- 3
+M<- 2
+Area<- L*M
+```
+# Area trapecio
+```{r}
+area_trapecio <- function(b, B, H) {
+  return(((b + B) * H) / 2)
+}
+
+```
